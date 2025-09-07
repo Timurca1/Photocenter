@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея - Фотоцентр "Ласточка"</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="Логотип Фотоцентра Ласточка" class="logo-icon">
+                <h1>Фотоцентр "Ласточка"</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="gallery.html" class="active">Галерея</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="page-title">
+        <div class="container">
+            <h1>Наши работы</h1>
+            <p>Примеры фотографий, сделанных нашими специалистами</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filters -->
+    <section class="gallery-filters">
+        <div class="container">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Все работы</button>
+                <button class="filter-btn" data-filter="portrait">Портреты</button>
+                <button class="filter-btn" data-filter="wedding">Свадьбы</button>
+                <button class="filter-btn" data-filter="family">Семейные</button>
+                <button class="filter-btn" data-filter="corporate">Корпоративные</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <div class="gallery-item portrait" data-category="portrait">
+                   <div class="gallery-img" style="background-image: url('images/gallery/portrait-1.jpg');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Портретная съемка</h3>
+                        <p>Индивидуальная фотосессия в студии</p>
+                    </div>
+                </div>
+                <div class="gallery-item wedding" data-category="wedding">
+                    <div class="gallery-img" style="background-image: url('images/gallery/wedding-1.jpg');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Свадебная съемка</h3>
+                        <p>Торжественная церемония в парке</p>
+                    </div>
+                </div>
+                <div class="gallery-item family" data-category="family">
+                   <div class="gallery-img" style="background-image: url('images/gallery/family-1.jpg');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Семейная фотосессия</h3>
+                        <p>Выездная съемка на природе</p>
+                    </div>
+                </div>
+                <div class="gallery-item corporate" data-category="corporate">
+                    <div class="gallery-img" style="background-image: url('images/gallery/corporate-1.jpg');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Корпоративная съемка</h3>
+                        <p>Портреты сотрудников для сайта</p>
+                    </div>
+                </div>
+                <div class="gallery-item portrait" data-category="portrait">
+                  <div class="gallery-img" style="background-image: url('images/gallery/portrait-2.jpg');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Деловой портрет</h3>
+                        <p>Для резюме и профессиональных профилей</p>
+                    </div>
+                </div>
+                <div class="gallery-item wedding" data-category="wedding">
+                    <div class="gallery-img" style="background-image: url('images/gallery/wedding-2.jpg');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Свадебная прогулка</h3>
+                        <p>Романтическая фотосессия после церемонии</p>
+                    </div>
+                </div>
+                <div class="gallery-item family" data-category="family">
+                    <div class="gallery-img" style="background-image: url('images/gallery/family-2.jpg');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Семейная фотосессия</h3>
+                        <p>Студийная съемка с детьми</p>
+                    </div>
+                </div>
+                <div class="gallery-item corporate" data-category="corporate">
+                    <div class="gallery-img" style="background-image: url('images/gallery/corporate-2.jpg');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Корпоративное мероприятие</h3>
+                        <p>Репортажная съемка конференции</p>
+                    </div>
+                </div>
+                <div class="gallery-item portrait" data-category="portrait">
+                     <div class="gallery-img" style="background-image: url('images/gallery/portrait-3.jpg');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Творческий портрет</h3>
+                        <p>Арт-фотосессия с нестандартным образом</p>
+                    </div>
+                </div>
+                <div class="gallery-item wedding" data-category="wedding">
+                    <div class="gallery-img" style="background-image: url('images/gallery/wedding-3.jpg');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Свадебные детали</h3>
+                        <p>Фотографии колец, букета и других деталей</p>
+                    </div>
+                </div>
+                <div class="gallery-item family" data-category="family">
+                   <div class="gallery-img" style="background-image: url('images/gallery/family-3.jpg');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Семейная фотосессия</h3>
+                        <p>Съемка в ожидании малыша</p>
+                    </div>
+                </div>
+                <div class="gallery-item corporate" data-category="corporate">
+                  <div class="gallery-img" style="background-image: url('images/gallery/corporate-3.jpg');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Предметная съемка</h3>
+                        <p>Фотографии продукции для каталога</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Хотите такие же качественные фотографии?</h2>
+            <p>Запишитесь на фотосессию прямо сейчас и получите скидку 10% на первую съемку</p>
+            <a href="contact.html" class="btn">Записаться на съемку</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Фотоцентр "Ласточка"</h3>
+                    <p>Профессиональные фотографические услуги для частных и корпоративных клиентов.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Наши услуги</h3>
+                    <a href="services.html#portrait">Портретная съемка</a>
+                    <a href="services.html#wedding">Свадебная съемка</a>
+                    <a href="services.html#documents">Фото на документы</a>
+                    <a href="services.html#printing">Печать фотографий</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p>г. Москва, ул. Фотографов, д. 15</p>
+                    <p>+7 (902) 978-15-42</p>
+                    <p>info@lastochka-photo.ru</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Мы в соцсетях</h3>
+                    <div class="social-links">
+                        <a href="#">Instagram</a>
+                        <a href="#">VK</a>
+                        <a href="#">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Фотоцентр "Ласточка". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
